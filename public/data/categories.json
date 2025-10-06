@@ -1,0 +1,30 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Salon",
+    "slug": "salon",
+    "description": "Tableaux panoramiques et abstraits modernes pour révéler votre pièce de vie.",
+    "image": "/images/products/salon/salon-01.png"
+  },
+  {
+    "id": 2,
+    "name": "Chambre",
+    "slug": "chambre",
+    "description": "Toiles apaisantes et paysages doux pour instaurer une atmosphère relaxante.",
+    "image": "/images/products/chambre/chambre-01.png"
+  },
+  {
+    "id": 3,
+    "name": "Cuisine",
+    "slug": "cuisine",
+    "description": "Illustrations gourmandes et compositions coffee-time pour une cuisine chaleureuse.",
+    "image": "/images/products/cuisine/cuisine-01.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bureau",
+    "slug": "bureau",
+    "description": "Arts graphiques et citations motivantes pour un espace de travail inspirant.",
+    "image": "/images/products/bureau/bureau-01.jpg"
+  }
+]

@@ -1,0 +1,458 @@
+﻿[
+  {
+    "id": 1,
+    "title": "Panorama Chromatique",
+    "slug": "panorama-chromatique",
+    "category": "Salon",
+    "categorySlug": "salon",
+    "description": "Tableau panoramique multicolore ideal pour illuminer un salon moderne.",
+    "price": 520,
+    "salePrice": 470,
+    "rating": 4.9,
+    "image": "/images/products/salon/salon-01.png",
+    "images": [
+      "/images/products/salon/salon-01.png",
+      "/images/products/salon/salon-05.jpg",
+      "/images/products/salon/salon-08.jpeg"
+    ],
+    "tags": ["Grand format", "Abstrait"],
+    "createdAt": "2024-08-12T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Reflets Urbains",
+    "slug": "reflets-urbains",
+    "category": "Salon",
+    "categorySlug": "salon",
+    "description": "Oeuvre inspiree des reflets citadins, parfaite au-dessus d'un canape panoramique.",
+    "price": 480,
+    "salePrice": null,
+    "rating": 4.7,
+    "image": "/images/products/salon/salon-05.jpg",
+    "images": [
+      "/images/products/salon/salon-05.jpg",
+      "/images/products/salon/salon-06.jpg",
+      "/images/products/salon/salon-09.jpg"
+    ],
+    "tags": ["Salon", "Contemporain"],
+    "createdAt": "2024-07-05T12:00:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Eclosion Coloree",
+    "slug": "eclosion-coloree",
+    "category": "Salon",
+    "categorySlug": "salon",
+    "description": "Triptyque floral abstrait pour creer un point focal vibrant dans votre piece de vie.",
+    "price": 395,
+    "salePrice": 355,
+    "rating": 4.6,
+    "image": "/images/products/salon/salon-09.jpg",
+    "images": [
+      "/images/products/salon/salon-09.jpg",
+      "/images/products/salon/salon-10.jpg",
+      "/images/products/salon/salon-11.jpg"
+    ],
+    "tags": ["Triptyque", "Couleurs vives"],
+    "createdAt": "2024-05-22T10:15:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Brume Celeste",
+    "slug": "brume-celeste",
+    "category": "Chambre",
+    "categorySlug": "chambre",
+    "description": "Toile apaisante aux degrades bleus pour instaurer un climat relaxant dans la chambre.",
+    "price": 340,
+    "salePrice": 299,
+    "rating": 4.8,
+    "image": "/images/products/chambre/chambre-01.png",
+    "images": [
+      "/images/products/chambre/chambre-01.png",
+      "/images/products/chambre/chambre-03.jpeg",
+      "/images/products/chambre/chambre-04.png"
+    ],
+    "tags": ["Apaisant", "Paysage"],
+    "createdAt": "2024-04-18T08:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Serenite Vegetale",
+    "slug": "serenite-vegetale",
+    "category": "Chambre",
+    "categorySlug": "chambre",
+    "description": "Composition vegetale minimaliste qui diffuse une atmosphere zen.",
+    "price": 310,
+    "salePrice": null,
+    "rating": 4.5,
+    "image": "/images/products/chambre/chambre-07.jpg",
+    "images": [
+      "/images/products/chambre/chambre-07.jpg",
+      "/images/products/chambre/chambre-08.jpg",
+      "/images/products/chambre/chambre-09.jpg"
+    ],
+    "tags": ["Nature", "Minimaliste"],
+    "createdAt": "2024-03-12T11:10:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Matin Brumeux",
+    "slug": "matin-brumeux",
+    "category": "Chambre",
+    "categorySlug": "chambre",
+    "description": "Paysage pastel et brume legere pour accompagner vos reveils en douceur.",
+    "price": 285,
+    "salePrice": 249,
+    "rating": 4.4,
+    "image": "/images/products/chambre/chambre-09.jpg",
+    "images": [
+      "/images/products/chambre/chambre-09.jpg",
+      "/images/products/chambre/chambre-10.jpg",
+      "/images/products/chambre/chambre-11.jpg"
+    ],
+    "tags": ["Pastel", "Relax"],
+    "createdAt": "2024-02-03T09:30:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Cafe Signature",
+    "slug": "cafe-signature",
+    "category": "Cuisine",
+    "categorySlug": "cuisine",
+    "description": "Illustration barista chic pour habiller un coin breakfast ou coffee shop a domicile.",
+    "price": 210,
+    "salePrice": 189,
+    "rating": 4.6,
+    "image": "/images/products/cuisine/cuisine-01.jpg",
+    "images": [
+      "/images/products/cuisine/cuisine-01.jpg",
+      "/images/products/cuisine/cuisine-05.jpg",
+      "/images/products/cuisine/cuisine-08.jpg"
+    ],
+    "tags": ["Coffee", "Cuisine"],
+    "createdAt": "2024-07-01T07:50:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Douceurs Provencales",
+    "slug": "douceurs-provencales",
+    "category": "Cuisine",
+    "categorySlug": "cuisine",
+    "description": "Nature morte de fruits gorges de soleil pour une cuisine vitaminee.",
+    "price": 230,
+    "salePrice": null,
+    "rating": 4.3,
+    "image": "/images/products/cuisine/cuisine-05.jpg",
+    "images": [
+      "/images/products/cuisine/cuisine-05.jpg",
+      "/images/products/cuisine/cuisine-09.jpg",
+      "/images/products/cuisine/cuisine-10.webp"
+    ],
+    "tags": ["Fruits", "Couleurs chaudes"],
+    "createdAt": "2024-06-14T10:05:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Atelier Gourmet",
+    "slug": "atelier-gourmet",
+    "category": "Cuisine",
+    "categorySlug": "cuisine",
+    "description": "Affiche d'ustensiles elegants pour une cuisine de chef creative.",
+    "price": 245,
+    "salePrice": 219,
+    "rating": 4.5,
+    "image": "/images/products/cuisine/cuisine-08.jpg",
+    "images": [
+      "/images/products/cuisine/cuisine-08.jpg",
+      "/images/products/cuisine/cuisine-06.webp",
+      "/images/products/cuisine/cuisine-11.jpg"
+    ],
+    "tags": ["Ustensiles", "Gourmand"],
+    "createdAt": "2024-04-29T08:40:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Modules Geometriques",
+    "slug": "modules-geometriques",
+    "category": "Bureau",
+    "categorySlug": "bureau",
+    "description": "Serie geometrique minimaliste pour structurer un espace de travail moderne.",
+    "price": 310,
+    "salePrice": null,
+    "rating": 4.4,
+    "image": "/images/products/bureau/bureau-01.jpg",
+    "images": [
+      "/images/products/bureau/bureau-01.jpg",
+      "/images/products/bureau/bureau-02.jpeg",
+      "/images/products/bureau/bureau-03.jpg"
+    ],
+    "tags": ["Geometrie", "Motivation"],
+    "createdAt": "2024-05-09T09:20:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Focus Quotidien",
+    "slug": "focus-quotidien",
+    "category": "Bureau",
+    "categorySlug": "bureau",
+    "description": "Affiche typographique noire et or pour booster l'energie de votre bureau.",
+    "price": 280,
+    "salePrice": 249,
+    "rating": 4.5,
+    "image": "/images/products/bureau/bureau-03.jpg",
+    "images": [
+      "/images/products/bureau/bureau-03.jpg",
+      "/images/products/bureau/bureau-04.jpg",
+      "/images/products/bureau/bureau-05.jpg"
+    ],
+    "tags": ["Citation", "Noir et or"],
+    "createdAt": "2024-03-30T07:30:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Energie Creative",
+    "slug": "energie-creative",
+    "category": "Bureau",
+    "categorySlug": "bureau",
+    "description": "Illustration abstraite riche en couleurs pour stimuler la creativite.",
+    "price": 295,
+    "salePrice": null,
+    "rating": 4.6,
+    "image": "/images/products/bureau/bureau-05.jpg",
+    "images": [
+      "/images/products/bureau/bureau-05.jpg",
+      "/images/products/bureau/bureau-06.jpeg",
+      "/images/products/bureau/bureau-02.jpeg"
+    ],
+    "tags": ["Couleurs", "Inspiration"],
+    "createdAt": "2024-02-18T16:00:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Lumiere Vibrante",
+    "slug": "lumiere-vibrante",
+    "category": "Salon",
+    "categorySlug": "salon",
+    "description": "Panorama abstrait aux nuances chaudes pour un salon lumineux.",
+    "price": 415,
+    "salePrice": 379,
+    "rating": 4.6,
+    "image": "/images/products/salon/salon-02.jpg",
+    "images": [
+      "/images/products/salon/salon-02.jpg",
+      "/images/products/salon/salon-04.jpeg",
+      "/images/products/salon/salon-12.jpg"
+    ],
+    "tags": ["Panorama", "Chaud"],
+    "createdAt": "2024-04-02T09:00:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Cascade Pastel",
+    "slug": "cascade-pastel",
+    "category": "Salon",
+    "categorySlug": "salon",
+    "description": "Composition verticale douce pour une ambiance cosy dans le salon.",
+    "price": 360,
+    "salePrice": null,
+    "rating": 4.4,
+    "image": "/images/products/salon/salon-03.jpg",
+    "images": [
+      "/images/products/salon/salon-03.jpg",
+      "/images/products/salon/salon-06.jpg",
+      "/images/products/salon/salon-11.jpg"
+    ],
+    "tags": ["Pastel", "Cosy"],
+    "createdAt": "2024-03-08T10:30:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Graphismes Retro",
+    "slug": "graphismes-retro",
+    "category": "Salon",
+    "categorySlug": "salon",
+    "description": "Jeu graphique inspire des annees 70 pour dynamiser un mur de salon.",
+    "price": 335,
+    "salePrice": null,
+    "rating": 4.2,
+    "image": "/images/products/salon/salon-07.webp",
+    "images": [
+      "/images/products/salon/salon-07.webp",
+      "/images/products/salon/salon-10.jpg",
+      "/images/products/salon/salon-12.jpg"
+    ],
+    "tags": ["Retro", "Graphique"],
+    "createdAt": "2024-01-26T14:10:00Z"
+  },
+  {
+    "id": 16,
+    "title": "Horizons Calmes",
+    "slug": "horizons-calmes",
+    "category": "Chambre",
+    "categorySlug": "chambre",
+    "description": "Paysage brumeux bleu glacier pour une chambre paisible.",
+    "price": 295,
+    "salePrice": 259,
+    "rating": 4.6,
+    "image": "/images/products/chambre/chambre-02.png",
+    "images": [
+      "/images/products/chambre/chambre-02.png",
+      "/images/products/chambre/chambre-04.png",
+      "/images/products/chambre/chambre-05.webp"
+    ],
+    "tags": ["Paysage", "Brume"],
+    "createdAt": "2024-05-04T07:45:00Z"
+  },
+  {
+    "id": 17,
+    "title": "Monts Pastels",
+    "slug": "monts-pastels",
+    "category": "Chambre",
+    "categorySlug": "chambre",
+    "description": "Reliefs minimalistes et touches terracotta pour une chambre boheme.",
+    "price": 305,
+    "salePrice": null,
+    "rating": 4.5,
+    "image": "/images/products/chambre/chambre-03.jpeg",
+    "images": [
+      "/images/products/chambre/chambre-03.jpeg",
+      "/images/products/chambre/chambre-06.webp",
+      "/images/products/chambre/chambre-10.jpg"
+    ],
+    "tags": ["Minimal", "Terracotta"],
+    "createdAt": "2024-04-01T12:30:00Z"
+  },
+  {
+    "id": 18,
+    "title": "Nuit Florale",
+    "slug": "nuit-florale",
+    "category": "Chambre",
+    "categorySlug": "chambre",
+    "description": "Composition florale nuit bleu marine pour une chambre elegante.",
+    "price": 320,
+    "salePrice": 288,
+    "rating": 4.7,
+    "image": "/images/products/chambre/chambre-05.webp",
+    "images": [
+      "/images/products/chambre/chambre-05.webp",
+      "/images/products/chambre/chambre-08.jpg",
+      "/images/products/chambre/chambre-11.jpg"
+    ],
+    "tags": ["Florale", "Nocturne"],
+    "createdAt": "2024-02-18T19:20:00Z"
+  },
+  {
+    "id": 19,
+    "title": "Saveurs Ensoleillees",
+    "slug": "saveurs-ensoleillees",
+    "category": "Cuisine",
+    "categorySlug": "cuisine",
+    "description": "Trio d'agrumes stylises pour une cuisine pleine de vitamines.",
+    "price": 225,
+    "salePrice": 199,
+    "rating": 4.4,
+    "image": "/images/products/cuisine/cuisine-02.webp",
+    "images": [
+      "/images/products/cuisine/cuisine-02.webp",
+      "/images/products/cuisine/cuisine-03.webp",
+      "/images/products/cuisine/cuisine-07.jpeg"
+    ],
+    "tags": ["Agrumes", "Vitamines"],
+    "createdAt": "2024-05-28T08:00:00Z"
+  },
+  {
+    "id": 20,
+    "title": "Coffee Break",
+    "slug": "coffee-break",
+    "category": "Cuisine",
+    "categorySlug": "cuisine",
+    "description": "Affiche coffee time au style vintage pour accompagner vos pauses.",
+    "price": 205,
+    "salePrice": null,
+    "rating": 4.2,
+    "image": "/images/products/cuisine/cuisine-03.webp",
+    "images": [
+      "/images/products/cuisine/cuisine-03.webp",
+      "/images/products/cuisine/cuisine-04.webp",
+      "/images/products/cuisine/cuisine-06.webp"
+    ],
+    "tags": ["Cafe", "Vintage"],
+    "createdAt": "2024-03-22T09:55:00Z"
+  },
+  {
+    "id": 21,
+    "title": "Epices Suspendues",
+    "slug": "epices-suspendues",
+    "category": "Cuisine",
+    "categorySlug": "cuisine",
+    "description": "Palette ocre et bleu avec bocaux d'epices pour une cuisine creative.",
+    "price": 235,
+    "salePrice": 209,
+    "rating": 4.5,
+    "image": "/images/products/cuisine/cuisine-04.webp",
+    "images": [
+      "/images/products/cuisine/cuisine-04.webp",
+      "/images/products/cuisine/cuisine-09.jpg",
+      "/images/products/cuisine/cuisine-11.jpg"
+    ],
+    "tags": ["Epices", "Creative"],
+    "createdAt": "2024-01-17T13:05:00Z"
+  },
+  {
+    "id": 22,
+    "title": "Geometrie Zen",
+    "slug": "geometrie-zen",
+    "category": "Bureau",
+    "categorySlug": "bureau",
+    "description": "Formes minimalistes sable et noir pour un bureau raffine.",
+    "price": 290,
+    "salePrice": 260,
+    "rating": 4.5,
+    "image": "/images/products/bureau/bureau-02.jpeg",
+    "images": [
+      "/images/products/bureau/bureau-02.jpeg",
+      "/images/products/bureau/bureau-06.jpeg",
+      "/images/products/bureau/bureau-05.jpg"
+    ],
+    "tags": ["Minimal", "Sable"],
+    "createdAt": "2024-06-10T11:40:00Z"
+  },
+  {
+    "id": 23,
+    "title": "Plan de Strategie",
+    "slug": "plan-de-strategie",
+    "category": "Bureau",
+    "categorySlug": "bureau",
+    "description": "Mindmap noir et blanc avec notes dorées pour garder le cap.",
+    "price": 275,
+    "salePrice": null,
+    "rating": 4.3,
+    "image": "/images/products/bureau/bureau-04.jpg",
+    "images": [
+      "/images/products/bureau/bureau-04.jpg",
+      "/images/products/bureau/bureau-03.jpg",
+      "/images/products/bureau/bureau-01.jpg"
+    ],
+    "tags": ["Strategie", "Typo"],
+    "createdAt": "2024-04-25T10:00:00Z"
+  },
+  {
+    "id": 24,
+    "title": "Dynamiques Chromatiques",
+    "slug": "dynamiques-chromatiques",
+    "category": "Bureau",
+    "categorySlug": "bureau",
+    "description": "Fresque abstraite multicolore pour stimuler les idees au bureau.",
+    "price": 305,
+    "salePrice": 279,
+    "rating": 4.6,
+    "image": "/images/products/bureau/bureau-06.jpeg",
+    "images": [
+      "/images/products/bureau/bureau-06.jpeg",
+      "/images/products/bureau/bureau-02.jpeg",
+      "/images/products/bureau/bureau-05.jpg"
+    ],
+    "tags": ["Abstrait", "Energie"],
+    "createdAt": "2024-02-01T15:30:00Z"
+  }
+]

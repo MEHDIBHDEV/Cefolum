@@ -1,0 +1,43 @@
+/* Design tokens and helpers */
+:root {
+  --radius: 12px;
+  --radius-lg: 18px;
+  --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 24px rgba(0,0,0,.12);
+  --shadow-xl: 0 20px 80px rgba(0,0,0,.18);
+}
+
+.surface {
+  @apply bg-background-soft text-foreground rounded-soft shadow-md;
+}
+
+.btn-base {
+  @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background disabled:opacity-50 disabled:pointer-events-none;
+}
+.btn-primary { @apply btn-base bg-primary text-primary-foreground hover:bg-primary-soft; }
+.btn-secondary { @apply btn-base bg-muted text-foreground hover:bg-muted/80; }
+.btn-ghost { @apply btn-base bg-transparent hover:bg-muted/40; }
+
+.icon-button { @apply inline-flex items-center justify-center rounded-full border border-transparent p-0 w-10 h-10 transition-colors hover:bg-muted/60 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background; }
+
+.badge { @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold bg-muted text-foreground; }
+.tag { @apply inline-flex items-center rounded-md px-2 py-0.5 text-xs bg-muted text-foreground; }
+
+.input { @apply w-full rounded-md border border-muted bg-background-soft px-3 py-2 text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent; }
+.textarea { @apply input min-h-[120px]; }
+.select { @apply input; }
+
+.card { @apply rounded-lg bg-background-soft shadow-md overflow-hidden; }
+.card-body { @apply p-4; }
+.card-footer { @apply p-4 border-t border-muted/50; }
+
+.container-narrow { @apply max-w-5xl mx-auto px-4; }
+
+/* Light theme overrides */
+.theme-light body { @apply bg-white text-neutral-900; }
+.theme-light .surface { @apply bg-white text-neutral-900 rounded-soft shadow-sm border border-neutral-200; }
+.theme-light .btn-ghost { @apply bg-transparent hover:bg-neutral-100; }
+.theme-light .input { @apply bg-white border-neutral-200 placeholder-neutral-500; }
+.theme-light .select { @apply bg-white border-neutral-200; }
+.theme-light .card { @apply bg-white shadow-sm; }
+.theme-light .card-footer { @apply border-neutral-200; }
