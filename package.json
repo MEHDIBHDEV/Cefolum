@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint src --ext .js,.jsx",
-    "format": "prettier --check \"src/**/*.{js,jsx,css}\""
+    "format": "prettier --check \"src/**/*.{js,jsx,css}\"",
+    "enrich:products": "node scripts/enrich-products.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.23.22",

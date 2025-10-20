@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galerie d'art — Produits</title>
+    <style>
+      :root {
+        --bg: #0e1116;
+        --surface: #161b22;
+        --surface-2: #1f2530;
+        --text: #e6e6e6;
+        --muted: #9aa3b2;
+        --primary: #5aa6ff;
+        --promo: #e14d60;
+        --border: #2a3140;
+        --shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+      }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        background: var(--bg);
+        color: var(--text);
+      }
+      .container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+      header h1 { margin: 0 0 0.75rem 0; font-size: 1.5rem; }
+      .filters { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1rem; box-shadow: var(--shadow); }
+      .filters-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.75rem; }
+      .filters .field { display: flex; flex-direction: column; gap: 0.35rem; }
+      .filters label { color: var(--muted); font-size: 0.85rem; }
+      .filters input[type="text"], .filters input[type="number"], .filters select { background: var(--surface-2); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 0.6rem 0.7rem; outline: none; }
+      .filters input::placeholder { color: #7b8596; }
+      .filters .actions { display: flex; gap: 0.6rem; align-items: end; }
+      .btn { appearance: none; border: 1px solid var(--border); background: var(--surface-2); color: var(--text); border-radius: 8px; padding: 0.6rem 0.9rem; cursor: pointer; }
+      .btn.primary { background: var(--primary); border-color: #3b7bd6; color: #08111f; font-weight: 600; }
+      .btn:hover { filter: brightness(1.05); }
+      .check { display: flex; gap: 0.5rem; align-items: center; margin-top: 0.2rem; background: var(--surface-2); border: 1px solid var(--border); padding: 0.55rem 0.7rem; border-radius: 8px; }
+      .summary { color: var(--muted); margin: 0.8rem 0 0; font-size: 0.95rem; }
+      #cardsGrid { margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; }
+      .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); transition: transform 0.15s ease, box-shadow 0.15s ease; }
+      .card:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.45); }
+      .thumb { position: relative; }
+      .thumb img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+      .badge { position: absolute; top: 10px; left: 10px; background: var(--promo); color: #fff; font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 999px; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+      .content { padding: 0.85rem 1rem 1rem; display: grid; gap: 0.35rem; }
+      .title { margin: 0; font-size: 1.05rem; }
+      .meta { color: var(--muted); font-size: 0.9rem; }
+      .price { font-weight: 700; margin-top: 0.2rem; }
+      .empty { text-align: center; background: var(--surface); border: 1px solid var(--border); color: var(--muted); padding: 2rem; border-radius: 14px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Produits</h1>
+      </header>
+
+      <section class="filters" aria-label="Filtres de recherche">
+        <div class="filters-grid">
+          <div class="field" style="grid-column: span 2; min-width: 260px;">
+            <label for="searchInput">Recherche</label>
+            <input id="searchInput" type="text" placeholder="Mot-clé, artiste, couleur…" />
+          </div>
+          <div class="field">
+            <label for="categorySelect">Catégorie</label>
+            <select id="categorySelect">
+              <option value="Toutes">Toutes</option>
+              <option value="Peinture">Peinture</option>
+              <option value="Sculpture">Sculpture</option>
+              <option value="Photo">Photo</option>
+              <option value="Dessin">Dessin</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="priceMin">Prix min (€)</label>
+            <input id="priceMin" type="number" inputmode="numeric" min="0" step="50" />
+          </div>
+          <div class="field">
+            <label for="priceMax">Prix max (€)</label>
+            <input id="priceMax" type="number" inputmode="numeric" min="0" step="50" />
+          </div>
+          <div class="field">
+            <label for="promoOnly">&nbsp;</label>
+            <div class="check">
+              <input id="promoOnly" type="checkbox" />
+              <label for="promoOnly" style="margin:0;">En promotion</label>
+            </div>
+          </div>
+          <div class="actions">
+            <button id="validateBtn" class="btn primary">Valider</button>
+            <button id="resetBtn" class="btn">Réinitialiser</button>
+          </div>
+        </div>
+        <div id="activeFilterSummary" class="summary" aria-live="polite"></div>
+      </section>
+
+      <section>
+        <div id="cardsGrid"></div>
+      </section>
+    </div>
+
+    <script type="module" src="../produits.js"></script>
+  </body>
+  </html>

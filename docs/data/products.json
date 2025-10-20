@@ -1,458 +1,753 @@
 ﻿[
-  {
-    "id": 1,
-    "title": "Panorama Chromatique",
-    "slug": "panorama-chromatique",
-    "category": "Salon",
-    "categorySlug": "salon",
-    "description": "Tableau panoramique multicolore ideal pour illuminer un salon moderne.",
-    "price": 520,
-    "salePrice": 470,
-    "rating": 4.9,
-    "image": "/images/products/salon/salon-01.png",
-    "images": [
-      "/images/products/salon/salon-01.png",
-      "/images/products/salon/salon-05.jpg",
-      "/images/products/salon/salon-08.jpeg"
-    ],
-    "tags": ["Grand format", "Abstrait"],
-    "createdAt": "2024-08-12T09:00:00Z"
-  },
-  {
-    "id": 2,
-    "title": "Reflets Urbains",
-    "slug": "reflets-urbains",
-    "category": "Salon",
-    "categorySlug": "salon",
-    "description": "Oeuvre inspiree des reflets citadins, parfaite au-dessus d'un canape panoramique.",
-    "price": 480,
-    "salePrice": null,
-    "rating": 4.7,
-    "image": "/images/products/salon/salon-05.jpg",
-    "images": [
-      "/images/products/salon/salon-05.jpg",
-      "/images/products/salon/salon-06.jpg",
-      "/images/products/salon/salon-09.jpg"
-    ],
-    "tags": ["Salon", "Contemporain"],
-    "createdAt": "2024-07-05T12:00:00Z"
-  },
-  {
-    "id": 3,
-    "title": "Eclosion Coloree",
-    "slug": "eclosion-coloree",
-    "category": "Salon",
-    "categorySlug": "salon",
-    "description": "Triptyque floral abstrait pour creer un point focal vibrant dans votre piece de vie.",
-    "price": 395,
-    "salePrice": 355,
-    "rating": 4.6,
-    "image": "/images/products/salon/salon-09.jpg",
-    "images": [
-      "/images/products/salon/salon-09.jpg",
-      "/images/products/salon/salon-10.jpg",
-      "/images/products/salon/salon-11.jpg"
-    ],
-    "tags": ["Triptyque", "Couleurs vives"],
-    "createdAt": "2024-05-22T10:15:00Z"
-  },
-  {
-    "id": 4,
-    "title": "Brume Celeste",
-    "slug": "brume-celeste",
-    "category": "Chambre",
-    "categorySlug": "chambre",
-    "description": "Toile apaisante aux degrades bleus pour instaurer un climat relaxant dans la chambre.",
-    "price": 340,
-    "salePrice": 299,
-    "rating": 4.8,
-    "image": "/images/products/chambre/chambre-01.png",
-    "images": [
-      "/images/products/chambre/chambre-01.png",
-      "/images/products/chambre/chambre-03.jpeg",
-      "/images/products/chambre/chambre-04.png"
-    ],
-    "tags": ["Apaisant", "Paysage"],
-    "createdAt": "2024-04-18T08:45:00Z"
-  },
-  {
-    "id": 5,
-    "title": "Serenite Vegetale",
-    "slug": "serenite-vegetale",
-    "category": "Chambre",
-    "categorySlug": "chambre",
-    "description": "Composition vegetale minimaliste qui diffuse une atmosphere zen.",
-    "price": 310,
-    "salePrice": null,
-    "rating": 4.5,
-    "image": "/images/products/chambre/chambre-07.jpg",
-    "images": [
-      "/images/products/chambre/chambre-07.jpg",
-      "/images/products/chambre/chambre-08.jpg",
-      "/images/products/chambre/chambre-09.jpg"
-    ],
-    "tags": ["Nature", "Minimaliste"],
-    "createdAt": "2024-03-12T11:10:00Z"
-  },
-  {
-    "id": 6,
-    "title": "Matin Brumeux",
-    "slug": "matin-brumeux",
-    "category": "Chambre",
-    "categorySlug": "chambre",
-    "description": "Paysage pastel et brume legere pour accompagner vos reveils en douceur.",
-    "price": 285,
-    "salePrice": 249,
-    "rating": 4.4,
-    "image": "/images/products/chambre/chambre-09.jpg",
-    "images": [
-      "/images/products/chambre/chambre-09.jpg",
-      "/images/products/chambre/chambre-10.jpg",
-      "/images/products/chambre/chambre-11.jpg"
-    ],
-    "tags": ["Pastel", "Relax"],
-    "createdAt": "2024-02-03T09:30:00Z"
-  },
-  {
-    "id": 7,
-    "title": "Cafe Signature",
-    "slug": "cafe-signature",
-    "category": "Cuisine",
-    "categorySlug": "cuisine",
-    "description": "Illustration barista chic pour habiller un coin breakfast ou coffee shop a domicile.",
-    "price": 210,
-    "salePrice": 189,
-    "rating": 4.6,
-    "image": "/images/products/cuisine/cuisine-01.jpg",
-    "images": [
-      "/images/products/cuisine/cuisine-01.jpg",
-      "/images/products/cuisine/cuisine-05.jpg",
-      "/images/products/cuisine/cuisine-08.jpg"
-    ],
-    "tags": ["Coffee", "Cuisine"],
-    "createdAt": "2024-07-01T07:50:00Z"
-  },
-  {
-    "id": 8,
-    "title": "Douceurs Provencales",
-    "slug": "douceurs-provencales",
-    "category": "Cuisine",
-    "categorySlug": "cuisine",
-    "description": "Nature morte de fruits gorges de soleil pour une cuisine vitaminee.",
-    "price": 230,
-    "salePrice": null,
-    "rating": 4.3,
-    "image": "/images/products/cuisine/cuisine-05.jpg",
-    "images": [
-      "/images/products/cuisine/cuisine-05.jpg",
-      "/images/products/cuisine/cuisine-09.jpg",
-      "/images/products/cuisine/cuisine-10.webp"
-    ],
-    "tags": ["Fruits", "Couleurs chaudes"],
-    "createdAt": "2024-06-14T10:05:00Z"
-  },
-  {
-    "id": 9,
-    "title": "Atelier Gourmet",
-    "slug": "atelier-gourmet",
-    "category": "Cuisine",
-    "categorySlug": "cuisine",
-    "description": "Affiche d'ustensiles elegants pour une cuisine de chef creative.",
-    "price": 245,
-    "salePrice": 219,
-    "rating": 4.5,
-    "image": "/images/products/cuisine/cuisine-08.jpg",
-    "images": [
-      "/images/products/cuisine/cuisine-08.jpg",
-      "/images/products/cuisine/cuisine-06.webp",
-      "/images/products/cuisine/cuisine-11.jpg"
-    ],
-    "tags": ["Ustensiles", "Gourmand"],
-    "createdAt": "2024-04-29T08:40:00Z"
-  },
-  {
-    "id": 10,
-    "title": "Modules Geometriques",
-    "slug": "modules-geometriques",
-    "category": "Bureau",
-    "categorySlug": "bureau",
-    "description": "Serie geometrique minimaliste pour structurer un espace de travail moderne.",
-    "price": 310,
-    "salePrice": null,
-    "rating": 4.4,
-    "image": "/images/products/bureau/bureau-01.jpg",
-    "images": [
-      "/images/products/bureau/bureau-01.jpg",
-      "/images/products/bureau/bureau-02.jpeg",
-      "/images/products/bureau/bureau-03.jpg"
-    ],
-    "tags": ["Geometrie", "Motivation"],
-    "createdAt": "2024-05-09T09:20:00Z"
-  },
-  {
-    "id": 11,
-    "title": "Focus Quotidien",
-    "slug": "focus-quotidien",
-    "category": "Bureau",
-    "categorySlug": "bureau",
-    "description": "Affiche typographique noire et or pour booster l'energie de votre bureau.",
-    "price": 280,
-    "salePrice": 249,
-    "rating": 4.5,
-    "image": "/images/products/bureau/bureau-03.jpg",
-    "images": [
-      "/images/products/bureau/bureau-03.jpg",
-      "/images/products/bureau/bureau-04.jpg",
-      "/images/products/bureau/bureau-05.jpg"
-    ],
-    "tags": ["Citation", "Noir et or"],
-    "createdAt": "2024-03-30T07:30:00Z"
-  },
-  {
-    "id": 12,
-    "title": "Energie Creative",
-    "slug": "energie-creative",
-    "category": "Bureau",
-    "categorySlug": "bureau",
-    "description": "Illustration abstraite riche en couleurs pour stimuler la creativite.",
-    "price": 295,
-    "salePrice": null,
-    "rating": 4.6,
-    "image": "/images/products/bureau/bureau-05.jpg",
-    "images": [
-      "/images/products/bureau/bureau-05.jpg",
-      "/images/products/bureau/bureau-06.jpeg",
-      "/images/products/bureau/bureau-02.jpeg"
-    ],
-    "tags": ["Couleurs", "Inspiration"],
-    "createdAt": "2024-02-18T16:00:00Z"
-  },
-  {
-    "id": 13,
-    "title": "Lumiere Vibrante",
-    "slug": "lumiere-vibrante",
-    "category": "Salon",
-    "categorySlug": "salon",
-    "description": "Panorama abstrait aux nuances chaudes pour un salon lumineux.",
-    "price": 415,
-    "salePrice": 379,
-    "rating": 4.6,
-    "image": "/images/products/salon/salon-02.jpg",
-    "images": [
-      "/images/products/salon/salon-02.jpg",
-      "/images/products/salon/salon-04.jpeg",
-      "/images/products/salon/salon-12.jpg"
-    ],
-    "tags": ["Panorama", "Chaud"],
-    "createdAt": "2024-04-02T09:00:00Z"
-  },
-  {
-    "id": 14,
-    "title": "Cascade Pastel",
-    "slug": "cascade-pastel",
-    "category": "Salon",
-    "categorySlug": "salon",
-    "description": "Composition verticale douce pour une ambiance cosy dans le salon.",
-    "price": 360,
-    "salePrice": null,
-    "rating": 4.4,
-    "image": "/images/products/salon/salon-03.jpg",
-    "images": [
-      "/images/products/salon/salon-03.jpg",
-      "/images/products/salon/salon-06.jpg",
-      "/images/products/salon/salon-11.jpg"
-    ],
-    "tags": ["Pastel", "Cosy"],
-    "createdAt": "2024-03-08T10:30:00Z"
-  },
-  {
-    "id": 15,
-    "title": "Graphismes Retro",
-    "slug": "graphismes-retro",
-    "category": "Salon",
-    "categorySlug": "salon",
-    "description": "Jeu graphique inspire des annees 70 pour dynamiser un mur de salon.",
-    "price": 335,
-    "salePrice": null,
-    "rating": 4.2,
-    "image": "/images/products/salon/salon-07.webp",
-    "images": [
-      "/images/products/salon/salon-07.webp",
-      "/images/products/salon/salon-10.jpg",
-      "/images/products/salon/salon-12.jpg"
-    ],
-    "tags": ["Retro", "Graphique"],
-    "createdAt": "2024-01-26T14:10:00Z"
-  },
-  {
-    "id": 16,
-    "title": "Horizons Calmes",
-    "slug": "horizons-calmes",
-    "category": "Chambre",
-    "categorySlug": "chambre",
-    "description": "Paysage brumeux bleu glacier pour une chambre paisible.",
-    "price": 295,
-    "salePrice": 259,
-    "rating": 4.6,
-    "image": "/images/products/chambre/chambre-02.png",
-    "images": [
-      "/images/products/chambre/chambre-02.png",
-      "/images/products/chambre/chambre-04.png",
-      "/images/products/chambre/chambre-05.webp"
-    ],
-    "tags": ["Paysage", "Brume"],
-    "createdAt": "2024-05-04T07:45:00Z"
-  },
-  {
-    "id": 17,
-    "title": "Monts Pastels",
-    "slug": "monts-pastels",
-    "category": "Chambre",
-    "categorySlug": "chambre",
-    "description": "Reliefs minimalistes et touches terracotta pour une chambre boheme.",
-    "price": 305,
-    "salePrice": null,
-    "rating": 4.5,
-    "image": "/images/products/chambre/chambre-03.jpeg",
-    "images": [
-      "/images/products/chambre/chambre-03.jpeg",
-      "/images/products/chambre/chambre-06.webp",
-      "/images/products/chambre/chambre-10.jpg"
-    ],
-    "tags": ["Minimal", "Terracotta"],
-    "createdAt": "2024-04-01T12:30:00Z"
-  },
-  {
-    "id": 18,
-    "title": "Nuit Florale",
-    "slug": "nuit-florale",
-    "category": "Chambre",
-    "categorySlug": "chambre",
-    "description": "Composition florale nuit bleu marine pour une chambre elegante.",
-    "price": 320,
-    "salePrice": 288,
-    "rating": 4.7,
-    "image": "/images/products/chambre/chambre-05.webp",
-    "images": [
-      "/images/products/chambre/chambre-05.webp",
-      "/images/products/chambre/chambre-08.jpg",
-      "/images/products/chambre/chambre-11.jpg"
-    ],
-    "tags": ["Florale", "Nocturne"],
-    "createdAt": "2024-02-18T19:20:00Z"
-  },
-  {
-    "id": 19,
-    "title": "Saveurs Ensoleillees",
-    "slug": "saveurs-ensoleillees",
-    "category": "Cuisine",
-    "categorySlug": "cuisine",
-    "description": "Trio d'agrumes stylises pour une cuisine pleine de vitamines.",
-    "price": 225,
-    "salePrice": 199,
-    "rating": 4.4,
-    "image": "/images/products/cuisine/cuisine-02.webp",
-    "images": [
-      "/images/products/cuisine/cuisine-02.webp",
-      "/images/products/cuisine/cuisine-03.webp",
-      "/images/products/cuisine/cuisine-07.jpeg"
-    ],
-    "tags": ["Agrumes", "Vitamines"],
-    "createdAt": "2024-05-28T08:00:00Z"
-  },
-  {
-    "id": 20,
-    "title": "Coffee Break",
-    "slug": "coffee-break",
-    "category": "Cuisine",
-    "categorySlug": "cuisine",
-    "description": "Affiche coffee time au style vintage pour accompagner vos pauses.",
-    "price": 205,
-    "salePrice": null,
-    "rating": 4.2,
-    "image": "/images/products/cuisine/cuisine-03.webp",
-    "images": [
-      "/images/products/cuisine/cuisine-03.webp",
-      "/images/products/cuisine/cuisine-04.webp",
-      "/images/products/cuisine/cuisine-06.webp"
-    ],
-    "tags": ["Cafe", "Vintage"],
-    "createdAt": "2024-03-22T09:55:00Z"
-  },
-  {
-    "id": 21,
-    "title": "Epices Suspendues",
-    "slug": "epices-suspendues",
-    "category": "Cuisine",
-    "categorySlug": "cuisine",
-    "description": "Palette ocre et bleu avec bocaux d'epices pour une cuisine creative.",
-    "price": 235,
-    "salePrice": 209,
-    "rating": 4.5,
-    "image": "/images/products/cuisine/cuisine-04.webp",
-    "images": [
-      "/images/products/cuisine/cuisine-04.webp",
-      "/images/products/cuisine/cuisine-09.jpg",
-      "/images/products/cuisine/cuisine-11.jpg"
-    ],
-    "tags": ["Epices", "Creative"],
-    "createdAt": "2024-01-17T13:05:00Z"
-  },
-  {
-    "id": 22,
-    "title": "Geometrie Zen",
-    "slug": "geometrie-zen",
-    "category": "Bureau",
-    "categorySlug": "bureau",
-    "description": "Formes minimalistes sable et noir pour un bureau raffine.",
-    "price": 290,
-    "salePrice": 260,
-    "rating": 4.5,
-    "image": "/images/products/bureau/bureau-02.jpeg",
-    "images": [
-      "/images/products/bureau/bureau-02.jpeg",
-      "/images/products/bureau/bureau-06.jpeg",
-      "/images/products/bureau/bureau-05.jpg"
-    ],
-    "tags": ["Minimal", "Sable"],
-    "createdAt": "2024-06-10T11:40:00Z"
-  },
-  {
-    "id": 23,
-    "title": "Plan de Strategie",
-    "slug": "plan-de-strategie",
-    "category": "Bureau",
-    "categorySlug": "bureau",
-    "description": "Mindmap noir et blanc avec notes dorées pour garder le cap.",
-    "price": 275,
-    "salePrice": null,
-    "rating": 4.3,
-    "image": "/images/products/bureau/bureau-04.jpg",
-    "images": [
-      "/images/products/bureau/bureau-04.jpg",
-      "/images/products/bureau/bureau-03.jpg",
-      "/images/products/bureau/bureau-01.jpg"
-    ],
-    "tags": ["Strategie", "Typo"],
-    "createdAt": "2024-04-25T10:00:00Z"
-  },
-  {
-    "id": 24,
-    "title": "Dynamiques Chromatiques",
-    "slug": "dynamiques-chromatiques",
-    "category": "Bureau",
-    "categorySlug": "bureau",
-    "description": "Fresque abstraite multicolore pour stimuler les idees au bureau.",
-    "price": 305,
-    "salePrice": 279,
-    "rating": 4.6,
-    "image": "/images/products/bureau/bureau-06.jpeg",
-    "images": [
-      "/images/products/bureau/bureau-06.jpeg",
-      "/images/products/bureau/bureau-02.jpeg",
-      "/images/products/bureau/bureau-05.jpg"
-    ],
-    "tags": ["Abstrait", "Energie"],
-    "createdAt": "2024-02-01T15:30:00Z"
-  }
+    {
+        "id":  "accueil-landing1",
+        "title":  "Landing1",
+        "image":  "images/products/accueil/landing1.png",
+        "category":  "salon",
+        "price":  60,
+        "onSale":  true,
+        "colors":  [
+                       "noir",
+                       "or",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "accueil-landing2",
+        "title":  "Landing2",
+        "image":  "images/products/accueil/landing2.png",
+        "category":  "salon",
+        "price":  105,
+        "onSale":  false,
+        "colors":  [
+                       "bleu nuit",
+                       "argent"
+                   ]
+    },
+    {
+        "id":  "accueil-landing3",
+        "title":  "Landing3",
+        "image":  "images/products/accueil/landing3.png",
+        "category":  "salon",
+        "price":  155,
+        "onSale":  false,
+        "colors":  [
+                       "vert sapin",
+                       "cuivre"
+                   ]
+    },
+    {
+        "id":  "bureau-bureau01",
+        "title":  "Bureau 01",
+        "image":  "images/products/bureau/bureau-01.jpg",
+        "category":  "salle a manger",
+        "price":  200,
+        "onSale":  false,
+        "colors":  [
+                       "ocre",
+                       "blanc",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "bureau-bureau02",
+        "title":  "Bureau 02",
+        "image":  "images/products/bureau/bureau-02.jpeg",
+        "category":  "salle a manger",
+        "price":  245,
+        "onSale":  true,
+        "colors":  [
+                       "bordeaux",
+                       "beige"
+                   ]
+    },
+    {
+        "id":  "bureau-bureau03",
+        "title":  "Bureau 03",
+        "image":  "images/products/bureau/bureau-03.jpg",
+        "category":  "salle a manger",
+        "price":  295,
+        "onSale":  false,
+        "colors":  [
+                       "gris ardoise",
+                       "blanc"
+                   ]
+    },
+    {
+        "id":  "bureau-bureau04",
+        "title":  "Bureau 04",
+        "image":  "images/products/bureau/bureau-04.jpg",
+        "category":  "salle a manger",
+        "price":  340,
+        "onSale":  false,
+        "colors":  [
+                       "violet",
+                       "rose poudr",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "bureau-bureau05",
+        "title":  "Bureau 05",
+        "image":  "images/products/bureau/bureau-05.jpg",
+        "category":  "salle a manger",
+        "price":  390,
+        "onSale":  false,
+        "colors":  [
+                       "turquoise",
+                       "sable"
+                   ]
+    },
+    {
+        "id":  "bureau-bureau06",
+        "title":  "Bureau 06",
+        "image":  "images/products/bureau/bureau-06.jpeg",
+        "category":  "salle a manger",
+        "price":  435,
+        "onSale":  true,
+        "colors":  [
+                       "ember",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "chambre-c1",
+        "title":  "C1",
+        "image":  "images/products/chambre/c1.avif",
+        "category":  "chambre a coucher",
+        "price":  480,
+        "onSale":  false,
+        "colors":  [
+                       "noir profond",
+                       "laiton"
+                   ]
+    },
+    {
+        "id":  "chambre-c2",
+        "title":  "C2",
+        "image":  "images/products/chambre/c2.webp",
+        "category":  "chambre a coucher",
+        "price":  90,
+        "onSale":  false,
+        "colors":  [
+                       "noir",
+                       "or",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "chambre-c3",
+        "title":  "C3",
+        "image":  "images/products/chambre/c3.webp",
+        "category":  "chambre a coucher",
+        "price":  135,
+        "onSale":  false,
+        "colors":  [
+                       "bleu nuit",
+                       "argent"
+                   ]
+    },
+    {
+        "id":  "chambre-c4",
+        "title":  "C4",
+        "image":  "images/products/chambre/c4.jpg",
+        "category":  "chambre a coucher",
+        "price":  180,
+        "onSale":  true,
+        "colors":  [
+                       "vert sapin",
+                       "cuivre"
+                   ]
+    },
+    {
+        "id":  "chambre-c5",
+        "title":  "C5",
+        "image":  "images/products/chambre/c5.jpg",
+        "category":  "chambre a coucher",
+        "price":  230,
+        "onSale":  false,
+        "colors":  [
+                       "ocre",
+                       "blanc",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre01",
+        "title":  "Chambre 01",
+        "image":  "images/products/chambre/chambre-01.png",
+        "category":  "chambre a coucher",
+        "price":  275,
+        "onSale":  false,
+        "colors":  [
+                       "bordeaux",
+                       "beige"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre02",
+        "title":  "Chambre 02",
+        "image":  "images/products/chambre/chambre-02.png",
+        "category":  "chambre a coucher",
+        "price":  325,
+        "onSale":  false,
+        "colors":  [
+                       "gris ardoise",
+                       "blanc"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre03",
+        "title":  "Chambre 03",
+        "image":  "images/products/chambre/chambre-03.jpeg",
+        "category":  "chambre a coucher",
+        "price":  370,
+        "onSale":  true,
+        "colors":  [
+                       "violet",
+                       "rose poudr",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre04",
+        "title":  "Chambre 04",
+        "image":  "images/products/chambre/chambre-04.png",
+        "category":  "chambre a coucher",
+        "price":  415,
+        "onSale":  false,
+        "colors":  [
+                       "turquoise",
+                       "sable"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre05",
+        "title":  "Chambre 05",
+        "image":  "images/products/chambre/chambre-05.webp",
+        "category":  "chambre a coucher",
+        "price":  465,
+        "onSale":  false,
+        "colors":  [
+                       "ember",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre06",
+        "title":  "Chambre 06",
+        "image":  "images/products/chambre/chambre-06.webp",
+        "category":  "chambre a coucher",
+        "price":  70,
+        "onSale":  false,
+        "colors":  [
+                       "noir profond",
+                       "laiton"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre07",
+        "title":  "Chambre 07",
+        "image":  "images/products/chambre/chambre-07.jpg",
+        "category":  "chambre a coucher",
+        "price":  115,
+        "onSale":  true,
+        "colors":  [
+                       "noir",
+                       "or",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre08",
+        "title":  "Chambre 08",
+        "image":  "images/products/chambre/chambre-08.jpg",
+        "category":  "chambre a coucher",
+        "price":  165,
+        "onSale":  false,
+        "colors":  [
+                       "bleu nuit",
+                       "argent"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre09",
+        "title":  "Chambre 09",
+        "image":  "images/products/chambre/chambre-09.jpg",
+        "category":  "chambre a coucher",
+        "price":  210,
+        "onSale":  false,
+        "colors":  [
+                       "vert sapin",
+                       "cuivre"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre10",
+        "title":  "Chambre 10",
+        "image":  "images/products/chambre/chambre-10.jpg",
+        "category":  "chambre a coucher",
+        "price":  260,
+        "onSale":  false,
+        "colors":  [
+                       "ocre",
+                       "blanc",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "chambre-chambre11",
+        "title":  "Chambre 11",
+        "image":  "images/products/chambre/chambre-11.jpg",
+        "category":  "chambre a coucher",
+        "price":  305,
+        "onSale":  true,
+        "colors":  [
+                       "bordeaux",
+                       "beige"
+                   ]
+    },
+    {
+        "id":  "cuisine-c8",
+        "title":  "C8",
+        "image":  "images/products/cuisine/C8.webp",
+        "category":  "cuisine",
+        "price":  350,
+        "onSale":  false,
+        "colors":  [
+                       "gris ardoise",
+                       "blanc"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine01",
+        "title":  "Cuisine 01",
+        "image":  "images/products/cuisine/cuisine-01.jpg",
+        "category":  "cuisine",
+        "price":  400,
+        "onSale":  false,
+        "colors":  [
+                       "violet",
+                       "rose poudr",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine02",
+        "title":  "Cuisine 02",
+        "image":  "images/products/cuisine/cuisine-02.webp",
+        "category":  "cuisine",
+        "price":  445,
+        "onSale":  false,
+        "colors":  [
+                       "turquoise",
+                       "sable"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine03",
+        "title":  "Cuisine 03",
+        "image":  "images/products/cuisine/cuisine-03.webp",
+        "category":  "cuisine",
+        "price":  495,
+        "onSale":  true,
+        "colors":  [
+                       "ember",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine04",
+        "title":  "Cuisine 04",
+        "image":  "images/products/cuisine/cuisine-04.webp",
+        "category":  "cuisine",
+        "price":  100,
+        "onSale":  false,
+        "colors":  [
+                       "noir profond",
+                       "laiton"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine05",
+        "title":  "Cuisine 05",
+        "image":  "images/products/cuisine/cuisine-05.jpg",
+        "category":  "cuisine",
+        "price":  145,
+        "onSale":  false,
+        "colors":  [
+                       "noir",
+                       "or",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine06",
+        "title":  "Cuisine 06",
+        "image":  "images/products/cuisine/cuisine-06.webp",
+        "category":  "cuisine",
+        "price":  195,
+        "onSale":  false,
+        "colors":  [
+                       "bleu nuit",
+                       "argent"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine07",
+        "title":  "Cuisine 07",
+        "image":  "images/products/cuisine/cuisine-07.jpeg",
+        "category":  "cuisine",
+        "price":  240,
+        "onSale":  true,
+        "colors":  [
+                       "vert sapin",
+                       "cuivre"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine08",
+        "title":  "Cuisine 08",
+        "image":  "images/products/cuisine/cuisine-08.jpg",
+        "category":  "cuisine",
+        "price":  285,
+        "onSale":  false,
+        "colors":  [
+                       "ocre",
+                       "blanc",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine09",
+        "title":  "Cuisine 09",
+        "image":  "images/products/cuisine/cuisine-09.jpg",
+        "category":  "cuisine",
+        "price":  335,
+        "onSale":  false,
+        "colors":  [
+                       "bordeaux",
+                       "beige"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine10",
+        "title":  "Cuisine 10",
+        "image":  "images/products/cuisine/cuisine-10.webp",
+        "category":  "cuisine",
+        "price":  380,
+        "onSale":  false,
+        "colors":  [
+                       "gris ardoise",
+                       "blanc"
+                   ]
+    },
+    {
+        "id":  "cuisine-cuisine11",
+        "title":  "Cuisine 11",
+        "image":  "images/products/cuisine/cuisine-11.jpg",
+        "category":  "cuisine",
+        "price":  430,
+        "onSale":  true,
+        "colors":  [
+                       "violet",
+                       "rose poudr",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "salon-c1",
+        "title":  "C1",
+        "image":  "images/products/salon/c1.png",
+        "category":  "salon",
+        "price":  475,
+        "onSale":  false,
+        "colors":  [
+                       "turquoise",
+                       "sable"
+                   ]
+    },
+    {
+        "id":  "salon-c2",
+        "title":  "C2",
+        "image":  "images/products/salon/c2.png",
+        "category":  "salon",
+        "price":  80,
+        "onSale":  false,
+        "colors":  [
+                       "ember",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "salon-c3",
+        "title":  "C3",
+        "image":  "images/products/salon/c3.png",
+        "category":  "salon",
+        "price":  130,
+        "onSale":  false,
+        "colors":  [
+                       "noir profond",
+                       "laiton"
+                   ]
+    },
+    {
+        "id":  "salon-c4",
+        "title":  "C4",
+        "image":  "images/products/salon/c4.png",
+        "category":  "salon",
+        "price":  175,
+        "onSale":  true,
+        "colors":  [
+                       "noir",
+                       "or",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "salon-c5",
+        "title":  "C5",
+        "image":  "/images/products/salon/c5.png",
+        "category":  "salon",
+        "price":  220,
+        "onSale":  false,
+        "colors":  [
+                       "bleu nuit",
+                       "argent"
+                   ]
+    },
+    {
+        "id":  "salon-c6",
+        "title":  "C6",
+        "image":  "images/products/salon/c6.png",
+        "category":  "salon",
+        "price":  270,
+        "onSale":  false,
+        "colors":  [
+                       "vert sapin",
+                       "cuivre"
+                   ]
+    },
+    {
+        "id":  "salon-img1",
+        "title":  "Img1",
+        "image":  "images/products/salon/img1.jpg",
+        "category":  "salon",
+        "price":  315,
+        "onSale":  false,
+        "colors":  [
+                       "ocre",
+                       "blanc",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "salon-s2",
+        "title":  "S2",
+        "image":  "images/products/salon/S2.webp",
+        "category":  "salon",
+        "price":  365,
+        "onSale":  true,
+        "colors":  [
+                       "bordeaux",
+                       "beige"
+                   ]
+    },
+    {
+        "id":  "salon-s3",
+        "title":  "S3",
+        "image":  "images/products/salon/S3.jpg",
+        "category":  "salon",
+        "price":  410,
+        "onSale":  false,
+        "colors":  [
+                       "gris ardoise",
+                       "blanc"
+                   ]
+    },
+    {
+        "id":  "salon-s4",
+        "title":  "S4",
+        "image":  "images/products/salon/S4.jpg",
+        "category":  "salon",
+        "price":  455,
+        "onSale":  false,
+        "colors":  [
+                       "violet",
+                       "rose poudr",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "salon-s5",
+        "title":  "S5",
+        "image":  "images/products/salon/S5.jpg",
+        "category":  "salon",
+        "price":  65,
+        "onSale":  false,
+        "colors":  [
+                       "turquoise",
+                       "sable"
+                   ]
+    },
+    {
+        "id":  "salon-salon1",
+        "title":  "Salon 1",
+        "image":  "images/products/salon/salon 1.webp",
+        "category":  "salon",
+        "price":  110,
+        "onSale":  true,
+        "colors":  [
+                       "ember",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "salon-salon01",
+        "title":  "Salon 01",
+        "image":  "images/products/salon/salon-01.png",
+        "category":  "salon",
+        "price":  155,
+        "onSale":  false,
+        "colors":  [
+                       "noir profond",
+                       "laiton"
+                   ]
+    },
+    {
+        "id":  "salon-salon02",
+        "title":  "Salon 02",
+        "image":  "images/products/salon/salon-02.jpg",
+        "category":  "salon",
+        "price":  205,
+        "onSale":  false,
+        "colors":  [
+                       "noir",
+                       "or",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "salon-salon03",
+        "title":  "Salon 03",
+        "image":  "images/products/salon/salon-03.jpg",
+        "category":  "salon",
+        "price":  250,
+        "onSale":  false,
+        "colors":  [
+                       "bleu nuit",
+                       "argent"
+                   ]
+    },
+    {
+        "id":  "salon-salon04",
+        "title":  "Salon 04",
+        "image":  "images/products/salon/salon-04.jpeg",
+        "category":  "salon",
+        "price":  300,
+        "onSale":  true,
+        "colors":  [
+                       "vert sapin",
+                       "cuivre"
+                   ]
+    },
+    {
+        "id":  "salon-salon05",
+        "title":  "Salon 05",
+        "image":  "images/products/salon/salon-05.jpg",
+        "category":  "salon",
+        "price":  345,
+        "onSale":  false,
+        "colors":  [
+                       "ocre",
+                       "blanc",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "salon-salon06",
+        "title":  "Salon 06",
+        "image":  "images/products/salon/salon-06.jpg",
+        "category":  "salon",
+        "price":  390,
+        "onSale":  false,
+        "colors":  [
+                       "bordeaux",
+                       "beige"
+                   ]
+    },
+    {
+        "id":  "salon-salon07",
+        "title":  "Salon 07",
+        "image":  "images/products/salon/salon-07.webp",
+        "category":  "salon",
+        "price":  440,
+        "onSale":  false,
+        "colors":  [
+                       "gris ardoise",
+                       "blanc"
+                   ]
+    },
+    {
+        "id":  "salon-salon08",
+        "title":  "Salon 08",
+        "image":  "images/products/salon/salon-08.jpeg",
+        "category":  "salon",
+        "price":  485,
+        "onSale":  true,
+        "colors":  [
+                       "violet",
+                       "rose poudr",
+                       "noir"
+                   ]
+    },
+    {
+        "id":  "salon-salon09",
+        "title":  "Salon 09",
+        "image":  "images/products/salon/salon-09.jpg",
+        "category":  "salon",
+        "price":  90,
+        "onSale":  false,
+        "colors":  [
+                       "turquoise",
+                       "sable"
+                   ]
+    },
+    {
+        "id":  "salon-salon10",
+        "title":  "Salon 10",
+        "image":  "images/products/salon/salon-10.jpg",
+        "category":  "salon",
+        "price":  140,
+        "onSale":  false,
+        "colors":  [
+                       "ember",
+                       "ivoire"
+                   ]
+    },
+    {
+        "id":  "salon-salon11",
+        "title":  "Salon 11",
+        "image":  "images/products/salon/salon-11.jpg",
+        "category":  "salon",
+        "price":  185,
+        "onSale":  false,
+        "colors":  [
+                       "noir profond",
+                       "laiton"
+                   ]
+    },
+    {
+        "id":  "salon-salon12",
+        "title":  "Salon 12",
+        "image":  "images/products/salon/salon-12.jpg",
+        "category":  "salon",
+        "price":  235,
+        "onSale":  true,
+        "colors":  [
+                       "noir",
+                       "or",
+                       "ivoire"
+                   ]
+    }
 ]

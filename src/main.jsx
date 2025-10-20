@@ -11,7 +11,7 @@ import { initTheme } from './lib/theme'
 initTheme()
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Cefolum">
     <CartProvider>
       <App />
     </CartProvider>
